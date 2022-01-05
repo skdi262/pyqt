@@ -32,7 +32,7 @@ from Socket_Singleton import Socket_Singleton
 # find_id_class = uic.loadUiType(form5)[0]
 # ch_class = uic.loadUiType(form6)[0]
 # se_list_class = uic.loadUiType(form7)[0]
-
+print("hello")
 now_file = os.getcwd()
 
 form_class = uic.loadUiType(now_file +r"\uis\untitled.ui")[0]
