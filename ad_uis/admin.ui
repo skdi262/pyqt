@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1295</width>
+    <height>668</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>410</y>
+     <width>56</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>회원명</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>410</y>
+     <width>56</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>전화번호</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>410</y>
+     <width>56</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>이메일</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>410</y>
+     <width>56</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>가입일</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>410</y>
+     <width>56</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>회원등급</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>410</y>
+     <width>56</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>이용 시작</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>410</y>
+     <width>56</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>이용 만료</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>410</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>승인</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>450</y>
+     <width>85</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>450</y>
+     <width>85</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>450</y>
+     <width>141</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>450</y>
+     <width>131</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>450</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_6">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>450</y>
+     <width>31</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_7">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>450</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_8">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>450</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>500</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>수정</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="de_btn">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>500</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>회원삭제</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="new_btn">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>500</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>회원등록</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_log_list">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>50</y>
+     <width>120</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>로그인 회원</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_all_list">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>120</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>회원 리스트</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_grade_list">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>50</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>회원 등급별 리스트</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>325</x>
+     <y>55</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>회원 등급 :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>55</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>계정 권한 :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_root_list">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>50</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>계정 권한별 리스트</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>410</y>
+     <width>56</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>아이디</string>
+   </property>
+  </widget>
+  <widget class="QCalendarWidget" name="st_calendar">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>450</y>
+     <width>271</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCalendarWidget" name="ex_calendar">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>450</y>
+     <width>271</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCalendarWidget" name="new_calendar">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>450</y>
+     <width>271</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="table">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>108</y>
+     <width>1241</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="alternatingRowColors">
+    <bool>false</bool>
+   </property>
+   <column>
+    <property name="text">
+     <string>회원번호</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>회원명</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>아이디</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>이메일</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>전화번호</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>가입일</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>회원등급</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>이용시작일</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>이용만료일</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>승인 여부</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>동시접속 수</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>접속 IP</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>접속 시간</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="plus_d">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>450</y>
+     <width>31</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>D</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="plus_w">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>450</y>
+     <width>31</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>W</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="plus_m">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>450</y>
+     <width>31</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>M</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sel_edit">
+   <property name="geometry">
+    <rect>
+     <x>984</x>
+     <y>50</y>
+     <width>131</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_search">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>50</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>검색</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="sel_option">
+   <property name="geometry">
+    <rect>
+     <x>857</x>
+     <y>50</y>
+     <width>111</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_10">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>450</y>
+     <width>31</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>410</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>동시접속</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ex_plus_d">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>450</y>
+     <width>31</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>D</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ex_plus_w">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>450</y>
+     <width>31</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>W</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ex_plus_m">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>450</y>
+     <width>31</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>M</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sel_root">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>50</y>
+     <width>35</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sel_grade">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>50</y>
+     <width>35</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="sel_able">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>450</y>
+     <width>41</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>lineEdit_3</zorder>
+  <zorder>lineEdit_4</zorder>
+  <zorder>lineEdit_5</zorder>
+  <zorder>lineEdit_6</zorder>
+  <zorder>lineEdit_7</zorder>
+  <zorder>lineEdit_8</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>de_btn</zorder>
+  <zorder>new_btn</zorder>
+  <zorder>btn_log_list</zorder>
+  <zorder>btn_all_list</zorder>
+  <zorder>btn_grade_list</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_11</zorder>
+  <zorder>btn_root_list</zorder>
+  <zorder>label_12</zorder>
+  <zorder>table</zorder>
+  <zorder>plus_d</zorder>
+  <zorder>plus_w</zorder>
+  <zorder>plus_m</zorder>
+  <zorder>sel_edit</zorder>
+  <zorder>btn_search</zorder>
+  <zorder>sel_option</zorder>
+  <zorder>lineEdit_10</zorder>
+  <zorder>label_13</zorder>
+  <zorder>st_calendar</zorder>
+  <zorder>new_calendar</zorder>
+  <zorder>ex_plus_d</zorder>
+  <zorder>ex_plus_w</zorder>
+  <zorder>ex_plus_m</zorder>
+  <zorder>sel_root</zorder>
+  <zorder>sel_grade</zorder>
+  <zorder>sel_able</zorder>
+  <zorder>ex_calendar</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
